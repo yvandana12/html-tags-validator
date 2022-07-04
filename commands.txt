@@ -1,0 +1,4 @@
+flex tag_parser.l
+bison -yvd --report=all --graph tag_parser.y
+gcc lex.yy.c y.tab.c
+a.exe
